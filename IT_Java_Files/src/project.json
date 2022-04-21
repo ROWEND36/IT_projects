@@ -1,0 +1,7 @@
+//GRACE_CONFIG
+{
+    "extensions": ["java"],
+    "rootDir": "/sdcard/AppProjects/Student/src/",
+    "exclude": [],
+    "folders": ["."]
+}

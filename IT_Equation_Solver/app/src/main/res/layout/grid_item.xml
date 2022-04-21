@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/grid_item_width"
+    android:layout_height="wrap_content"
+	android:gravity="fill_horizontal"
+	android:paddingBottom="10dp"
+	android:layout_margin="2dp"
+	android:elevation="1dp"
+	android:background="@color/background"
+	android:orientation="horizontal"
+	android:paddingLeft="2dp">
+	<TextView
+		android:id="@+id/grid_itemEquals"
+		android:layout_width="wrap_content"
+		android:padding="5sp"
+		android:visibility="gone"
+		android:text="="
+		android:textSize="16sp"
+		android:layout_height="wrap_content"/>
+	<EditText
+		android:id="@+id/grid_itemCoeff"
+		android:layout_width="wrap_content"
+		android:layout_weight="1"
+		android:layout_height="wrap_content"
+		android:lines="1"
+		android:inputType="numberDecimal|numberSigned"
+		android:minEms="4"/>
+	<TextView
+		android:id="@+id/grid_itemVariable"
+		android:layout_width="wrap_content"
+		android:padding="5sp"
+		android:textSize="16sp"
+		android:textColor="@color/primary"
+		android:text="x"
+		android:layout_height="wrap_content"/>
+</LinearLayout>
